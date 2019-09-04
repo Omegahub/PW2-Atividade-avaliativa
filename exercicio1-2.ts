@@ -1,2 +1,1 @@
-let salario: number = 1500.98;
-console.log('salario informado : ',salario);
+let salario:number = 1500.98;
