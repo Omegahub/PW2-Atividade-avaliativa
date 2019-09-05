@@ -1,4 +1,4 @@
-class piscina
+export class piscina
 {
    constructor(public diametro:number, public custoConstrucao:number){}
    raio()
@@ -7,7 +7,7 @@ class piscina
    }
    area()
    {
-       return 3.14 * (this.raio() * this.raio());
+       return 3.14159 * (this.raio() * this.raio());
    }
    custoTotal()
    {
