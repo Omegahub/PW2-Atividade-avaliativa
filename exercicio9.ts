@@ -14,6 +14,8 @@ export let parImpar = function(numero:number):boolean
 
 
 
+
+
 //func exercicio 5
 export let calcArea = function(comprimento:number, largura:number):number
 {
