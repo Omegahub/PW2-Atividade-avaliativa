@@ -1,8 +1,10 @@
+var numero = 11;
 var parImpar = function (numero) {
     if (numero % 2 == 0) {
-        console.log("PAR");
+        return true;
     }
     else {
-        console.log("Impar");
+        return false;
     }
 };
+console.log("" + parImpar(numero));

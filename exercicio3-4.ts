@@ -1,13 +1,13 @@
-
-let parImpar = function(numero:number):void
+let numero:number =11;
+let parImpar = function(numero:number):boolean
 {
     if(numero % 2 == 0)
     {
-        console.log("PAR")
+        return true
     }
     else
     {
-       console.log("Impar");
+       return false
     }
 }
-
+console.log(`${parImpar(numero)}`) 
